@@ -43,7 +43,11 @@ header {
     padding: 1px;
     border: 0;
 }
+h1 {
+    font-size: 2.5em;
+    }
 h2 {
+    font-size: 2em;
     margin: 1px;
 }
 #displayJoke { 
@@ -57,7 +61,7 @@ h1 {
     text-align: center;
     color: #002e74;
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-shadow: 2px 2px 2px rgb(253, 242, 242);
 }
 
@@ -66,7 +70,7 @@ h2 {
     margin: 20px;
     color: #f1ffa0;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 3rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
