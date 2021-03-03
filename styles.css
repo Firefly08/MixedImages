@@ -51,6 +51,8 @@ h2 {
     padding: 0;
     border: 0;
 }
+    footer {
+        display: none;
 }
 
 h1 {
