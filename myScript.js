@@ -12,7 +12,23 @@ const images = [
 
 function getImage() {
     let randomNumber = Math.floor(Math.random() * (images.length));
-    document.getElementById('displayImg').innerHTML = images[randomNumber];
+    let img = images[randomNumber];
+    let imgStr = '<img src="' + img + '" alt = "">';
+    document.getElementById('displayImg').innerHTML = imgStr;
+    
 }
 
 onClick.addEventListener("click", getImage);
+
+/*
+var random_images_array = ['smile.gif', 'frown.gif', 'grim.gif', 'bomb.gif'];
+
+function getRandomImage(imgAr, path) {
+    path = path || 'images/'; // default path here
+    var num = Math.floor(Math.random() * imgAr.length);
+    var img = imgAr[num];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr);
+    document.close();
+}
+*/
